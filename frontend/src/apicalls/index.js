@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:4000', // Update if your backend uses a different port
+  baseURL: 'https://online-exam-portal-4.onrender.com', // Update if your backend uses a different port
 });
 
 // Attach token to headers
